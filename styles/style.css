@@ -511,6 +511,50 @@ textarea{
 }
 
 
+/* 4.6 simulation bancaire -------------------------------------------------------------------------------------------------------------------------------*/
+
+.guichet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guichet img:hover{
+
+  transform: scale(1.5);
+
+}
+
+.guichet h1{
+  margin: 4rem 0;
+  text-decoration: underline;
+}
+
+.guichet .photo1{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width:75%;
+  gap:3rem;
+}
+
+.guichet .photo1 img{
+  width:50%;
+}
+
+.guichet .texte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guichet p{
+  text-align: justify;
+  font-size: larger;
+  font-weight: 700;
+}
+
 
 
 /* 5 footer ------------------------------------------------------------------------------------------------------------------------------------------------*/
