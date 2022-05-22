@@ -9,6 +9,8 @@
     4.2 ...........bio
     4.3 ...........compétences
     4.4 ...........intérets
+    4.5 ...........form
+    4.6 ...........projets
   5. ..............footer
 
 
@@ -65,7 +67,7 @@ header{
   display: flex;
   justify-content:space-between;
   align-items: center;
-  letter-spacing:4px;
+  letter-spacing:3px;
   font-size: small; 
 }
 
@@ -380,7 +382,7 @@ main .photo{
   border-style: solid;
   border-color: var(--clr-bleu-pale);
   border-width: 5px;
-  margin: 0 100px 0;
+  margin: 0 50px 0;
   height: 95%;
   box-shadow: 5px 10px 25px var(--clr-bleu-fonce) ;
   width: 95%;  
@@ -394,6 +396,7 @@ main .photo{
   border-radius: 1em;
  text-align: center;
  height:15%; 
+ margin-top: 2rem;
 }
 
 #interets ul{
@@ -408,6 +411,13 @@ main .photo{
   font-size: 40px;
   color: var(--clr-bleu-pale);
 }
+
+#interets ul li:last-child{
+
+  margin-bottom: 5rem;
+
+}
+
 
 /* 4.5 form ------------------------------------------------------------------------------------------------------------------------------------------------*/
 
