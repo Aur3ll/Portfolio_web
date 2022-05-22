@@ -19,28 +19,23 @@
           </a>
         </li>
         <li>
-          <a href="#competences">
-            <img
-              class="logo-nav"
-              src="Images/knight.png"
-              alt="logo-competence"
-            />
-            <h1>Compétences</h1>
+          <a href="#pong">
+            <ion-icon name="game-controller-outline"></ion-icon>
+            <h1>Jeu Pong</h1>
           </a>
         </li>
         <li>
-          <a href="#interets">
-            <img
-              class="logo-nav"
-              src="images/gamepad.png"
-              alt="logo-competence"
-            />
-            <h1>Intérêts</h1>
+          <a href="#notes">
+            <ion-icon name="calculator-outline"></ion-icon>
+            <h1>notes</h1>
           </a>
         </li>
       </ul>
     </section>
     <main>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <ion-icon name="arrow-up-circle-outline"></ion-icon>
+      </button>
       <div class="guichet" id="guichet">
         <h1>Simulation bancaire sur console</h1>
         <button>
@@ -49,7 +44,7 @@
             >Télécharger</a
           >
         </button>
-        <div class="photo1">
+        <div class="photo">
           <img src="images/guichet-login.PNG" alt="img" />
           <div class="texte">
             <p>
@@ -60,7 +55,7 @@
             </p>
           </div>
         </div>
-        <div class="photo1">
+        <div class="photo">
           <div class="texte">
             <p>
               Voici le menu principal, cette page contient les informations sur
@@ -72,6 +67,59 @@
           </div>
           <img src="images/guichet-menuprincipal.PNG" alt="" />
         </div>
+        <div class="photo">
+          <img src="images/guichet-historique.PNG" alt="" />
+          <div class="texte">
+            <p>
+              C'est l'historique des transactions, la grandeur du tableau
+              s'adapte selon le nombre de transaction ainsi qu'en largeur selon
+              le solde. La dernière transaction s'affiche sur la première ligne.
+              Le comtpte des usagers qui se trompent de mot de passe cinq fois
+              de suite est suspendu et peut être débloquer par un administrateur
+              qui à accèes à un menu différent.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="pong" id="pong">
+        <h1>Jeu de Pong</h1>
+        <button>
+          <ion-icon name="download-outline"></ion-icon>
+          <a href="https://github.com/Aur3ll/Jeu_De_Pong">Télécharger</a>
+        </button>
+        <div class="photo">
+          <img src="images/pong.PNG" alt="" />
+          <div class="texte">
+            <p>
+              C'est une jeu de Pong copié des jeux des années 80. Créé en C++
+              avec SMFL. La forme est généré par un algoritme. Détruire les
+              brique fait monter le score. Les briques rouges apparaissent
+              aléatoirement au démarage et les brisser offre un pouvoir spécial.
+            </p>
+          </div>
+        </div>
+        <div class="photo">
+          <div class="texte">
+            <p>
+              Lorsqu'une brique rouge est frappé, elle tombe et il faut
+              l'attraper avec la raquette pour recevoir un pouvoir spéciale qui
+              fait passé la balle au travers des briques au lieu de rebondir.
+            </p>
+          </div>
+          <img src="images/superbrique.PNG" alt="" />
+        </div>
+        <hr />
+      </div>
+
+      <div class="notes" id="notes">
+        <h1>Recherche de résultats scolaires</h1>
+        <button>
+          <ion-icon name="download-outline"></ion-icon>
+          <a href="https://github.com/Aur3ll/Traitement_resultat_scolaire"
+            >Télécharger</a
+          >
+        </button>
       </div>
     </main>
 

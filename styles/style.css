@@ -144,6 +144,7 @@ header ul a:hover, header ul a:hover ion-icon {
   align-content: space-around;
   justify-content: space-around;
   list-style: none;
+  width: 100%;
   background-image: linear-gradient(
   90deg,
   var(--clr-bleu-fonce),
@@ -511,9 +512,9 @@ textarea{
 }
 
 
-/* 4.6 simulation bancaire -------------------------------------------------------------------------------------------------------------------------------*/
+/* 4.6 main projets -------------------------------------------------------------------------------------------------------------------------------*/
 
-.guichet{
+.guichet, .pong, .notes{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -523,46 +524,45 @@ textarea{
   
 }
 
-.guichet img:hover{
+.guichet img:hover, .pong img:hover, .notes img:hover{
 
   transform: scale(1.2);
   z-index: 1;
 
 }
 
-.guichet h1{
+.guichet h1, .pong h1, .notes h1{
   margin: 1rem 0;
   text-decoration: underline;
 }
 
-.guichet .photo1{
+.guichet .photo, .pong .photo, .notes .photo{
   margin:1.2rem 0;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
- 
   gap:3rem;
 }
 
-.guichet .photo1 img{
-  width:50%;
+.guichet .photo img, .pong .photo img, .notes .photo img{
+  min-width:50%;
+  height: auto;
 }
 
-.guichet .texte{
+.guichet .texte, .pong .texte, .notes .texte{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.guichet p{
+.guichet p, .pong p, .notes p{
   text-align: justify;
   font-size: larger;
   font-weight: 700;
-  position: relative;
   padding-bottom: .5rem;
 }
 
-.guichet button{
+.guichet button, .pong button, .notes button{
   
   display: flex;
   flex-direction:row ;
@@ -570,15 +570,22 @@ textarea{
   
 }
 
-.guichet button a{
+.guichet button a, .pong button a, .notes button a{
   text-decoration: none;
   color: var(--clr-bleu-fonce);
 }
 
-.guichet ion-icon{
+.guichet ion-icon, .pong ion-icon, .notes ion-icon{
   font-size: 20px;
 }
 
+hr{
+  
+  background-color:var(--clr-noir) ;
+  width: 100%;
+  height:5px;
+  margin: 5rem 0;
+}
 
 /* 5 footer ------------------------------------------------------------------------------------------------------------------------------------------------*/
 #footer{
