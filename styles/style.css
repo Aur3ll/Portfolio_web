@@ -518,24 +518,29 @@ textarea{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin:  0 10rem;
+  
+  
 }
 
 .guichet img:hover{
 
-  transform: scale(1.5);
+  transform: scale(1.2);
+  z-index: 1;
 
 }
 
 .guichet h1{
-  margin: 4rem 0;
+  margin: 1rem 0;
   text-decoration: underline;
 }
 
 .guichet .photo1{
+  margin:1.2rem 0;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  width:75%;
+ 
   gap:3rem;
 }
 
@@ -553,8 +558,26 @@ textarea{
   text-align: justify;
   font-size: larger;
   font-weight: 700;
+  position: relative;
+  padding-bottom: .5rem;
 }
 
+.guichet button{
+  
+  display: flex;
+  flex-direction:row ;
+  align-items: center;
+  
+}
+
+.guichet button a{
+  text-decoration: none;
+  color: var(--clr-bleu-fonce);
+}
+
+.guichet ion-icon{
+  font-size: 20px;
+}
 
 
 /* 5 footer ------------------------------------------------------------------------------------------------------------------------------------------------*/
